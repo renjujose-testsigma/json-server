@@ -2,31 +2,56 @@
   "posts": [
     {
       "id": 1,
-      "title": "Hi"
+      "title": "Simple Text",
+      "data":"Hi, there"
     },
     {
       "id": 2,
-      "title": ","
+      "title": "Single level JSON",
+      "data":{
+        "key1":"Lorem ipsum",
+        "key2":"Pinnem Lorem ipsum"
+      }
     },
     {
       "id": 3,
-      "title": "hello"
+      "title": "Multi level JSON",
+      "data":{
+        "key1":"Lorem ipsum",
+        "key2":{
+          "data":{
+            "key1":"Lorem ipsum",
+            "key2":"Pinnem Lorem ipsum"
+          }
+        }
+      }
     },
     {
       "id": 4,
-      "title": "there!"
+      "title": "JSON Array",
+      "data":[
+        {
+          "key1":"Lorem ipsum"
+        },
+        {
+          "key2":"Pinnem Lorem ipsum"
+        }
+      ]
     },
     {
       "id": 5,
-      "title": "Welcome"
+      "title": "HTML",
+      "data":"<div><a href=\"https://github.com/renjujose-testsigma\"><img id=\"avatar\" src=\"https://avatars2.githubusercontent.com/u/61197322?v=4\"></a></div>"
     },
     {
       "id": 6,
-      "title": "to"
+      "title": "Simple Text",
+      "data": "Lorem ipsum"
     },
     {
       "id": 7,
-      "title": "TS"
+      "title": "Simple Text",
+      "data": "TS"
     }
   ],
   "profile": {
